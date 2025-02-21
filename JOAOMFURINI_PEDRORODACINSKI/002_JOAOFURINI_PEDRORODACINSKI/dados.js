@@ -13,8 +13,9 @@ let frutas = [
 ];
 
 
-function add(a,b){
-    return a+b;
+function add(a,b,dados){
+    dados = a+b;
+    console.log(dados)
 }
 
 //  module.exports = nomes
